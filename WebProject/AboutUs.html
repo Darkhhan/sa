@@ -1,0 +1,116 @@
+<html lang="en">
+<head>
+<title>EXOanimal.com</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/Project.css">
+<link rel="icon" href="img/warcraft5.ico" type="image/gif" sizes="16x16">
+</head>
+<style>
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+<body>
+  <nav>
+          <div id="logo">EXOanimal</div>
+
+          <label for="drop" class="toggle">Menu</label>
+          <input type="checkbox" id="drop" />
+              <ul class="menu">
+                  <li><a href="Project.html">Home</a></li>
+
+                  <li>
+
+                  <!-- First Tier Drop Down -->
+                  <label for="drop-3" class="toggle">ANIMAL CATEGORIES </label>
+                  <a href="#">ANIMAL CATEGORIES</a>
+                  <input type="checkbox" id="drop-3"/>
+
+                  <ul>
+                    <li><a href="Mammals.html">Mammals</a></li>
+                    <li><a href="Birds.html">Birds</a></li>
+                    <li><a href="Reptiles.html">Reptiles and amphibias</a></li>
+                  </ul>
+                  </li>
+                  <li><a href="Login.html">Login</a></li>
+                  <li><a href="AboutUs.html">About Us</a></li>
+              </ul>
+          </nav>
+
+
+<div class="header"style="background-image:url(https://ruralindiaonline.org/media/images/Feature_IOPwhCa.width-1400.jpg);">
+  <h1>EXOanimal</h1>
+  <p>A website created by me.</p>
+</div>
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+    <h5>Zhadyrayev Darkhan</h5>
+    <div class="fakeimg" style="height:160px;"><img src="img/images.jpeg"></div>
+    <p> Its literaly fake information about me and this site.</p>
+    <h3 style="color:#FFB6C1">purpose of site to take care of animals</h3>
+
+    <button class="button"><span><a href="Menu.html">Want More</a> </span></button>
+  </div>
+  <div class="main">
+    <div class="fakeinfo">
+      <h1>Information</h1>
+      <p>Asyl-Arman</p>
+      <p>Selo Irgel,Kazakhstan</p>
+      <p>Contact numbers:8705234651</p>
+      <p>e-mail:DAtasa@gmail.com</p>
+
+    </div>
+    <p>Practical purpose</p>
+    <p>This site is for selling animal</p>
+    <br>
+    <h2 style="color:	#008080	 ">Partner</h2>
+    <div><img src="https://valuer.ai/wp-content/uploads/2019/09/03_mastercard-large-300x300.png"></div>
+    <br>
+    <p>Added Information</p>
+    <p>And this site contain Information about animals and how to take a care of animal</p>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Zhadyrayev Darkhan<br>Phone number:8705234651<br>Address:Asyl-Arman</h2>
+</div>
+
+</body>
+</html>
